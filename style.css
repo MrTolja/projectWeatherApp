@@ -1,0 +1,154 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", sans-serif;
+  background: #73C5FF;
+}
+
+.input {
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="submit"] {
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: 1px solid #777676;
+  border-radius: 10px;
+  font-family: "Times New Roman", sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.input input[type="text"] {
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: 1px solid #777676;
+  border-radius: 10px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.maindiv {
+  background-color: #73C5FF;
+}
+
+.container {
+  background-color: #73C5FF;
+}
+
+.card {
+  width: 80%;
+  background-color: #ADDAFB;
+  
+  
+  margin: 50px auto;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.desc {
+  padding-bottom: 5%;
+}
+
+
+.close {
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1 {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+  margin:20px 0;
+  font-size:20px;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fivedays {
+  /*width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  background-image: url('clouds1.jpg');
+  background-size: cover;*/
+  display: block;
+  padding-top: 1%;
+  width: 30%;
+  float: right;
+}
+
+.fivedays p {
+  text-align: center;
+}
+
+.fivedays img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;;
+}
+
+.petdana {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.header {
+  height: 70px;
+  background-color: #000000;
+}
+
+.header h1 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.header p {
+  float: right;
+  color: #ffffff;
+}
+
+.day {
+  text-align: center;
+  padding-bottom: 39%;
+  display: block;
+}
+
+.days {
+  display: block;
+  margin-left: 35%;
+}
+
+.five {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.forecast {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  background-image: url('clouds1.jpg');
+  background-size: cover;
+  padding-top: 1%;
+}
